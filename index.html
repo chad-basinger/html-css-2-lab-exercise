@@ -10,44 +10,66 @@
 <body>
 
     <header>
-        <p class ='web-title'>SPACEX</p>
+        <p id ='web-title'>SPACEX</p>
         <!-- <img class='web-title' src='https://www.spacex.com/static/images/share.jpg'> -->
         <div class='nav'>
             <!-- <div class ='nav'> SPACEX</div> -->
-            <div class ='nav'> FALCON 9</div>
-            <div class ='nav'> FALCON HEAVY</div>
-            <div class ='nav'> DRAGON</div>
-            <div class ='nav'> STARSHIP</div>
-            <div class ='nav'> HUMAN SPACEFLIGHT</div>
-            <div class ='nav'> RIDESHARE</div>
-            <p class='nav'>SHOP</p>
+            <div class ='nav-child'> FALCON 9</div>
+            <div class ='nav-child'> FALCON HEAVY</div>
+            <div class ='nav-child'> DRAGON</div>
+            <div class ='nav-child'> STARSHIP</div>
+            <div class ='nav-child'> HUMAN SPACEFLIGHT</div>
+            <div class ='nav-child'> RIDESHARE</div>
+            <div class='nav-child'> SHOP</div>
             <img src='/hamburger.jpg'>
         </div>
     </header>
 
 <section class='starlink'>
     <h1>STARLINK MISSION</h1>
-    <h2> Starship is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h2>
-    <button>LEARN MORE</button>
+    <h2> Starlink is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h2>
+    <button onclick="button()">REPLAY</button>
 </section>
 
 <section class='starship'>
     <h1>STARSHIP</h1>
     <h2> Starship is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h2>
-    <button>LEARN MORE</button>
+    <button onclick="button2()">LEARN MORE</button>
 </section>
 
 <section class='crew-1'>
     <h1>CREW-1 MISSION</h1>
-    <h2> Starship is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h2>
-    <button>LEARN MORE</button>
+    <h2> Crew 1 is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h2>
+    <button onclick="button3()">LEARN MORE</button>
 </section>
 
 <section class='dragon'>
     <h1>DRAGON DOCKING SIMULATOR</h1>
     <h2> Starship is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h2>
-    <button>LEARN MORE</button>
+    <button onclick="button4()">TRY NOW</button>
 </section>
     
 </body>
+<!-- <script>
+    function button() {
+        alert("THIS IS SPACE X!!");
+    }
+
+    function button2(){
+        alert("HOLY SHIP BATMAN!");
+    }
+
+    function button3(){
+        alert("WELCOME TO THE CREW!");
+    }
+
+    function button4(){
+        // name = 'Chad';
+        alert("YOU WISH YOU COULD TRY THIS!");
+        // console.log(name);
+    }
+    
+</script> -->
+<!-- //can also do the following: -->
+<script src='index.js'></script>
 </html>

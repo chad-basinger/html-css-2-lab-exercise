@@ -28,17 +28,27 @@ header {
     width: 100%;
     background-color: black;
     height: 10vh;
-    display: inline-flex;
-    align-items: flex-end;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; */
+
+
+
+    /* align-items: flex-end;
     justify-content: space-evenly;
-    z-index: 1;
+    z-index: 1; */
 }
 
 .nav {
+    position: relative;
     width: 100%;
+    color: white;
     display: flex;
     flex-flow: row nowrap;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
+    align-content: center;
+
 }
 
 /* .shop {
@@ -52,11 +62,12 @@ header {
 } */
 
 
-.web-title {
+#web-title {
     font-size: xx-large;
     color: white;
     font-style: italic;
     padding-left: 50px;;
+    /* display: flex; */
     /* height: 150px;
     width: 150px; */
     /* position: relative; */
@@ -67,12 +78,6 @@ header {
 img {
     height: 20px;
     width: 20px;
-}
-.nav {
-    position: relative;
-    flex-direction: row;
-    color: whitesmoke;
-    padding-left: 10%;
 }
 
 .starlink {
@@ -88,6 +93,8 @@ img {
     -o-background-size: cover;
     background-size: cover;
     padding-left: 5%;
+    padding-bottom: 5%;
+    
 }
 
 .starship {
@@ -103,6 +110,7 @@ img {
     -o-background-size: cover;
     background-size: cover;
     padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 .crew-1 {
@@ -118,6 +126,7 @@ img {
     -o-background-size: cover;
     background-size: cover;
     padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 .dragon {
@@ -133,4 +142,5 @@ img {
     -o-background-size: cover;
     background-size: cover;
     padding-left: 5%;
+    padding-bottom: 5%;
 }
