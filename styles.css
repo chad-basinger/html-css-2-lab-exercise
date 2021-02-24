@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+    height: 400vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    display: flex;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: space-evenly; */
+}
+
+/* .shop {
+    position: fixed;
+    color: whitesmoke;
+    top: 48px;
+    right: 150px;
+    display: flex;
+    align-self: flex-end;
+    padding-top: 50px;
+} */
+
+
+.web-title {
+    font-size: xx-large;
+    color: white;
+    font-style: italic;
+    padding-left: 50px;;
+    /* height: 150px;
+    width: 150px; */
+    /* position: relative; */
+    /* box-sizing: content-box; */
+    
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+.nav {
+    position: relative;
+    flex-direction: row;
+    color: whitesmoke;
+    padding-left: 10%;
+}
+
+.starlink {
+    height: 100vh;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: url('/space.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 5%;
+}
+
+.starship {
+    height: 100vh;
+    background-color:  darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: url('/starship.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 5%;
+}
+
+.crew-1 {
+    height: 100vh;
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: url('/200930184556-nasa-spacex-crew-1-mission-super-169.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 5%;
+}
+
+.dragon {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: url('/dragon.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 5%;
+}
